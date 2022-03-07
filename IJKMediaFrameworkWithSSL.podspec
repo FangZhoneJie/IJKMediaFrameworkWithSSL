@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "11.0"
 
-  s.source       = { :http => "https://raw.githubusercontent.com/iOSDevLog/ijkplayer/master/IJKMediaFrameworkWithSSL.framework.zip" }
+  s.source       = { :http => "https://github.com/FangZhoneJie/IJKMediaFrameworkWithSSL.git" }
   # s.source       = { :http => "https://github.com/iOSDevLog/ijkplayer/releases/download/#{s.version}/IJKMediaFramework.framework.zip" }
 
   s.vendored_frameworks = 'IJKMediaFrameworkWithSSL.framework'
