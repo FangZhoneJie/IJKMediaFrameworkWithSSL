@@ -10,9 +10,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "11.0"
 
-  s.source       = { :http => 'https://raw.githubusercontent.com/m3u8playlist/ijkplayerssl/main/IJKMediaFrameworkWithSSL.framework.zip' }
-  # s.source       = { :http => "https://github.com/iOSDevLog/ijkplayer/releases/download/#{s.version}/IJKMediaFramework.framework.zip" }
-
+  s.source       = { :http => 'https://raw.githubusercontent.com/FangZhoneJie/IJKMediaFrameworkWithSSL/main/IJKMediaFrameworkWithSSL.framework.zip' }
+  
   s.vendored_frameworks = 'IJKMediaFrameworkWithSSL.framework'
 
   s.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
